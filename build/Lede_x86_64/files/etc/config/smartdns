@@ -1,0 +1,73 @@
+
+config smartdns
+	option server_name 'smartdns'
+	option tcp_server '1'
+	option ipv6_server '1'
+	option dualstack_ip_selection '0'
+	option serve_expired '0'
+	option redirect 'none'
+	option rr_ttl_min '300'
+	option seconddns_tcp_server '1'
+	option seconddns_no_rule_addr '0'
+	option seconddns_no_rule_nameserver '0'
+	option seconddns_no_rule_ipset '0'
+	option seconddns_no_rule_soa '0'
+	option seconddns_no_dualstack_selection '0'
+	option force_aaaa_soa '0'
+	option coredump '0'
+	option seconddns_port '7788'
+	option seconddns_server_group 'us'
+	option port '6677'
+	option prefetch_domain '1'
+	option cache_size '5120'
+	option rr_ttl_max '3600'
+	option seconddns_no_speed_check '1'
+	option seconddns_no_cache '1'
+	list old_redirect 'none'
+	list old_port '6677'
+	list old_enabled '0'
+
+config server
+	option enabled '1'
+	option type 'udp'
+	option name '联通'
+	option ip '202.102.152.3'
+	option port '53'
+
+config server
+	option enabled '1'
+	option type 'udp'
+	option name '联通'
+	option ip '202.102.154.3'
+	option port '53'
+
+config server
+	option enabled '1'
+	option type 'udp'
+	option name '阿里云'
+	option ip '223.5.5.5'
+	option port '53'
+
+config server
+	option enabled '1'
+	option type 'udp'
+	option name '114'
+	option ip '114.114.114.114'
+	option port '53'
+
+config server
+	option enabled '1'
+	option type 'udp'
+	option name '114'
+	option ip '114.114.115.115'
+	option port '53'
+
+config server
+	option enabled '1'
+	option name 'google'
+	option ip 'dns.google'
+	option port '853'
+	option server_group 'us'
+	option blacklist_ip '0'
+	option type 'tls'
+
