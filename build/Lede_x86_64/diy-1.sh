@@ -18,8 +18,9 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/l
 git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos  #内网IP限速工具
 git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/package
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk package/lienol  #passwall出国软件配套
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk package/lean/package  #passwall出国软件配套
 svn co https://github.com/Lienol/openwrt-luci/trunk/themes/luci-theme-bootstrap-blue package/lean/luci-theme-bootstrap-blue
 svn co https://github.com/Lienol/openwrt-luci/trunk/themes/luci-theme-bootstrap-mod package/lean/luci-theme-bootstrap-mod
 
