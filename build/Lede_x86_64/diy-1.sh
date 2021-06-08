@@ -20,7 +20,7 @@ git clone https://github.com/jerrykuku/node-request.git package/lean/node-reques
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/package
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk package/lean/package  #passwall出国软件配套
+svn co https://github.com/xiaorouji/openwrt-passwall package/lean/package  #passwall出国软件配套
 #svn co https://github.com/Lienol/openwrt-luci/trunk/themes/luci-theme-bootstrap-blue package/lean/luci-theme-bootstrap-blue
 #svn co https://github.com/Lienol/openwrt-luci/trunk/themes/luci-theme-bootstrap-mod package/lean/luci-theme-bootstrap-mod
 
