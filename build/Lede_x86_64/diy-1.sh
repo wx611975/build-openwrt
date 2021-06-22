@@ -3,7 +3,7 @@
 #
 
 # 使用源码自带ShadowSocksR Plus+出国软件
-sed -i '$a src-git helloworld https://github.com//helloworld' feeds.conf.default
+#sed -i '$a src-git helloworld https://github.com//helloworld' feeds.conf.default
 
 # Add a feed source增加默认源地址
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
@@ -18,7 +18,9 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/l
 git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos  #内网IP限速工具
 git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/package
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/package
+git clone https://github.com/fw876/helloworld.git package/lean/package
+svn co https://github.com/fw876/helloworld package/lean/package
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
 svn co https://github.com/xiaorouji/openwrt-passwall package/lean/package  #passwall出国软件配套
 #svn co https://github.com/Lienol/openwrt-luci/trunk/themes/luci-theme-bootstrap-blue package/lean/luci-theme-bootstrap-blue
