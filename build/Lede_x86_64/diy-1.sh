@@ -19,9 +19,9 @@ git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-
 git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/package
-git clone https://github.com//helloworld.git package/lean/package
-svn co https://github.com//helloworld package/lean/package
-svn co https://github.com//helloworld/trunk/luci-app-ssr-plus package/lean/luci-app-ssr-plus
+git clone https://github.com/fw876/helloworld.git package/lean/package
+svn co https://github.com/fw876/helloworld package/lean/package
+svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/lean/luci-app-ssr-plus
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
 svn co https://github.com/xiaorouji/openwrt-passwall package/lean/package  #passwall出国软件配套
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-timewol package/lean/luci-app-control-timewol
